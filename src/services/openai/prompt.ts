@@ -7,16 +7,16 @@ const DATE_BASE = [
 
 
 const PROMPT_DETERMINE = `
-Analiza la conversación entre el cliente (C) y el vendedor (V) para identificar el producto de interés del cliente.
-
-PRODUCTOS DISPONIBLES:
-- ID: CHATBOT: Curso sobre cómo crear un ChatBot de Whatsapp. Precio: 39 USD. Requisito: conocimiento en JavaScript.
-- ID: AWS: Curso de AWS diseñado para programadores. Precio: 29 USD.
-- ID: NODE: Curso sobre cómo crear una API Rest en Node con Express. Precio: 29 USD. Requisito: conocimiento en javascript.
-
-Debes responder solo con el ID del producto. Si no puedes determinarlo o si el cliente muestra interés en más de un producto, debes responder 'unknown'.
-ID: 
-`
+// Analiza la conversación entre el cliente (C) y el vendedor (V) para identificar el producto de interés del cliente.
+//
+// PRODUCTOS DISPONIBLES:
+// - ID: CHATBOT: Curso sobre cómo crear un ChatBot de Whatsapp. Precio: 39 USD. Requisito: conocimiento en JavaScript.
+// - ID: AWS: Curso de AWS diseñado para programadores. Precio: 29 USD.
+// - ID: NODE: Curso sobre cómo crear una API Rest en Node con Express. Precio: 29 USD. Requisito: conocimiento en javascript.
+//
+// Debes responder solo con el ID del producto. Si no puedes determinarlo o si el cliente muestra interés en más de un producto, debes responder 'unknown'.
+// ID: 
+// `
 
 
 const PROMPT = `
